@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Accelerator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Accelerator_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999883667fs"></ZoomStartTime>
+      <ZoomEndTime time="1000581668fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="161"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/din_st" type="logic">
+      <obj_property name="ElementShortName">din_st</obj_property>
+      <obj_property name="ObjectShortName">din_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/din" type="array">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/dout_st" type="logic">
+      <obj_property name="ElementShortName">dout_st</obj_property>
+      <obj_property name="ObjectShortName">dout_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/convlayer_dout_st" type="logic">
+      <obj_property name="ElementShortName">convlayer_dout_st</obj_property>
+      <obj_property name="ObjectShortName">convlayer_dout_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/convlayer_dout" type="array">
+      <obj_property name="ElementShortName">convlayer_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">convlayer_dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/dwidth" type="array">
+      <obj_property name="ElementShortName">dwidth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwidth[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/qwidth" type="array">
+      <obj_property name="ElementShortName">qwidth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">qwidth[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/featmap1_size" type="array">
+      <obj_property name="ElementShortName">featmap1_size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">featmap1_size[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/featmap2_size" type="array">
+      <obj_property name="ElementShortName">featmap2_size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">featmap2_size[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/featmap3_size" type="array">
+      <obj_property name="ElementShortName">featmap3_size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">featmap3_size[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/featmap4_size" type="array">
+      <obj_property name="ElementShortName">featmap4_size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">featmap4_size[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/featmap5_size" type="array">
+      <obj_property name="ElementShortName">featmap5_size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">featmap5_size[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/conv_size" type="array">
+      <obj_property name="ElementShortName">conv_size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_size[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/pooling_size" type="array">
+      <obj_property name="ElementShortName">pooling_size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pooling_size[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/conv_strides" type="array">
+      <obj_property name="ElementShortName">conv_strides[31:0]</obj_property>
+      <obj_property name="ObjectShortName">conv_strides[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/pooling_strides" type="array">
+      <obj_property name="ElementShortName">pooling_strides[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pooling_strides[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/ConvPE_latency" type="array">
+      <obj_property name="ElementShortName">ConvPE_latency[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ConvPE_latency[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/Maxpooling_latency" type="array">
+      <obj_property name="ElementShortName">Maxpooling_latency[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Maxpooling_latency[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/PE_Num" type="array">
+      <obj_property name="ElementShortName">PE_Num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PE_Num[31:0]</obj_property>
+   </wvobject>
+</wave_config>

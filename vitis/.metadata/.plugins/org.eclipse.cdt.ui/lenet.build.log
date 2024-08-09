@@ -1,0 +1,127 @@
+01:12:24 **** Build of configuration Debug for project lenet ****
+make all 
+'Building file: ../src/Matrix_Mul.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Matrix_Mul.o" -IC:/Users/zhengzb/Desktop/project/kv260/lenet_kv260/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/Matrix_Mul.d" -MT"src/Matrix_Mul.o" -o "src/Matrix_Mul.o" "../src/Matrix_Mul.c"
+../src/Matrix_Mul.c: In function 'Matrix_Mul_Set':
+../src/Matrix_Mul.c:7:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+    7 |         My_DMA_Ctrl_3=(unsigned int)Matrx_A_Base_Addr;
+      |                       ^
+../src/Matrix_Mul.c:8:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+    8 |         My_DMA_Ctrl_4=(unsigned int)Matrx_B_Base_Addr;
+      |                       ^
+../src/Matrix_Mul.c:9:23: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+    9 |         My_DMA_Ctrl_5=(unsigned int)Matrx_C_Base_Addr;
+      |                       ^
+../src/Matrix_Mul.c: In function 'Matrix_Mul_Show_Registers':
+../src/Matrix_Mul.c:26:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   26 |         printf("My_DMA_Ctrl_0=%d\n\r",My_DMA_Ctrl_0);
+      |         ^~~~~~
+../src/Matrix_Mul.c:2:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    1 | #include "Matrix_Mul.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../src/Matrix_Mul.c:26:9: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+   26 |         printf("My_DMA_Ctrl_0=%d\n\r",My_DMA_Ctrl_0);
+      |         ^~~~~~
+../src/Matrix_Mul.c:26:9: note: include '<stdio.h>' or provide a declaration of 'printf'
+'Finished building: ../src/Matrix_Mul.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/zhengzb/Desktop/project/kv260/lenet_kv260/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:18:
+../src/img_flow.h:7:4: warning: excess elements in array initializer
+    7 | {7,2,1,0,4,1,4,9,5,9};
+      |    ^
+../src/img_flow.h:7:4: note: (near initialization for 'img_label')
+../src/img_flow.h:7:6: warning: excess elements in array initializer
+    7 | {7,2,1,0,4,1,4,9,5,9};
+      |      ^
+../src/img_flow.h:7:6: note: (near initialization for 'img_label')
+../src/img_flow.h:7:8: warning: excess elements in array initializer
+    7 | {7,2,1,0,4,1,4,9,5,9};
+      |        ^
+../src/img_flow.h:7:8: note: (near initialization for 'img_label')
+../src/img_flow.h:7:10: warning: excess elements in array initializer
+    7 | {7,2,1,0,4,1,4,9,5,9};
+      |          ^
+../src/img_flow.h:7:10: note: (near initialization for 'img_label')
+../src/img_flow.h:7:12: warning: excess elements in array initializer
+    7 | {7,2,1,0,4,1,4,9,5,9};
+      |            ^
+../src/img_flow.h:7:12: note: (near initialization for 'img_label')
+../src/img_flow.h:7:14: warning: excess elements in array initializer
+    7 | {7,2,1,0,4,1,4,9,5,9};
+      |              ^
+../src/img_flow.h:7:14: note: (near initialization for 'img_label')
+../src/img_flow.h:7:16: warning: excess elements in array initializer
+    7 | {7,2,1,0,4,1,4,9,5,9};
+      |                ^
+../src/img_flow.h:7:16: note: (near initialization for 'img_label')
+../src/img_flow.h:7:18: warning: excess elements in array initializer
+    7 | {7,2,1,0,4,1,4,9,5,9};
+      |                  ^
+../src/img_flow.h:7:18: note: (near initialization for 'img_label')
+../src/img_flow.h:7:20: warning: excess elements in array initializer
+    7 | {7,2,1,0,4,1,4,9,5,9};
+      |                    ^
+../src/img_flow.h:7:20: note: (near initialization for 'img_label')
+In file included from ../src/main.c:18:
+../src/img_flow.h:44:17: warning: excess elements in array initializer
+   44 |                 {0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+      |                 ^
+../src/img_flow.h:44:17: note: (near initialization for 'img')
+../src/img_flow.h:76:17: warning: excess elements in array initializer
+   76 |                 {0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+      |                 ^
+../src/img_flow.h:76:17: note: (near initialization for 'img')
+../src/img_flow.h:108:17: warning: excess elements in array initializer
+  108 |                 {0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+      |                 ^
+../src/img_flow.h:108:17: note: (near initialization for 'img')
+../src/img_flow.h:140:17: warning: excess elements in array initializer
+  140 |                 {0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+      |                 ^
+../src/img_flow.h:140:17: note: (near initialization for 'img')
+../src/img_flow.h:172:17: warning: excess elements in array initializer
+  172 |                 {0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+      |                 ^
+../src/img_flow.h:172:17: note: (near initialization for 'img')
+../src/img_flow.h:204:17: warning: excess elements in array initializer
+  204 |                 {0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+      |                 ^
+../src/img_flow.h:204:17: note: (near initialization for 'img')
+../src/img_flow.h:236:17: warning: excess elements in array initializer
+  236 |                 {0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+      |                 ^
+../src/img_flow.h:236:17: note: (near initialization for 'img')
+../src/img_flow.h:268:17: warning: excess elements in array initializer
+  268 |                 {0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+      |                 ^
+../src/img_flow.h:268:17: note: (near initialization for 'img')
+../src/img_flow.h:300:17: warning: excess elements in array initializer
+  300 |                 {0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,0x0000,
+      |                 ^
+../src/img_flow.h:300:17: note: (near initialization for 'img')
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/zhengzb/Desktop/project/kv260/lenet_kv260/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: lenet.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/zhengzb/Desktop/project/kv260/lenet_kv260/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "lenet.elf"  ./src/Matrix_Mul.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lenet.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size lenet.elf  |tee "lenet.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 115739	   8160	  24501	 148400	  243b0	lenet.elf
+'Finished building: lenet.elf.size'
+' '
+
+01:12:25 Build Finished (took 1s.328ms)
+

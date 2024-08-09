@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Jul 25 17:33:10 2024
+# Process ID: 20428
+# Current directory: C:/Users/yeshe/Desktop/rep/code/lenet_kv260
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6832 C:\Users\yeshe\Desktop\rep\code\lenet_kv260\lenet_kv260.xpr
+# Log file: C:/Users/yeshe/Desktop/rep/code/lenet_kv260/vivado.log
+# Journal file: C:/Users/yeshe/Desktop/rep/code/lenet_kv260\vivado.jou
+# Running On: shye3, OS: Windows, CPU Frequency: 2208 MHz, CPU Physical cores: 6, Host memory: 17024 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yeshe/Desktop/rep/code/lenet_kv260/lenet_kv260.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/vivado2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/vivado2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/vivado2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/vivado2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/vivado2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado2022.2/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/yeshe/Desktop/rep/zcu104/ip_repo'.
+WARNING: [filemgmt 56-3] Default location for output products of customized IPs.: Could not find the directory 'C:/Users/yeshe/Desktop/pynq/ip_repo/DMA_Controller'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/yeshe/Desktop/rep/zcu104/ip_repo'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado2022.2/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 2196.098 ; gain = 394.449
+update_compile_order -fileset sources_1
+save_project_as project_1 C:/Users/yeshe/Desktop/rep/code/project_1 -force
+WARNING: [IP_Flow 19-2162] IP 'design_1_DMA_Controller_0_0' is locked:
+* IP 'design_1_DMA_Controller_0_0' was locked because its BD Cell is locked for upgrade. * IP definition 'DMA_Controller (1.0)' for IP 'design_1_DMA_Controller_0_0' (customized with software release 2022.2) was not found in the IP Catalog.
+INFO: [IP_Flow 19-7005] Skipping external file c:/Users/yeshe/Desktop/rep/code/lenet_kv260/lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_0_0/src/bias.coe
+INFO: [IP_Flow 19-7005] Skipping external file c:/Users/yeshe/Desktop/rep/code/lenet_kv260/lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_0_0/src/fcweight.coe
+INFO: [IP_Flow 19-7005] Skipping external file c:/Users/yeshe/Desktop/rep/code/lenet_kv260/lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_0_0/src/weight.coe
+INFO: [IP_Flow 19-7005] Skipping external file c:/Users/yeshe/Desktop/rep/code/lenet_kv260/lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_0_0/src/img_flow.coe
+WARNING: [IP_Flow 19-2162] IP 'design_1_Accelerator_0_0' is locked:
+* IP 'design_1_Accelerator_0_0' was locked because its BD Cell is locked for upgrade. * IP definition 'Accelerator (1.0)' for IP 'design_1_Accelerator_0_0' (customized with software release 2022.2) was not found in the IP Catalog.
+save_project_as: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2211.215 ; gain = 2.094
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 25 17:35:05 2024...

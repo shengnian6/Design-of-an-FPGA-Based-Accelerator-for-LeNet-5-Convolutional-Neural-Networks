@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyProject/CNN_Accelerator/MyProject/ip_repo/DMA_Controller/src
+vAXI_HP_Master_Burst_Transceiver
+!s110 1586320909
+!i10b 1
+!s100 <cb6KT4UkYYh@^g7Y2O`X2
+IBPR_>U^dn`MC;D:j:nl4=3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1586320908
+8d:\temp\tmpd53fg9.v
+Fd:\temp\tmpd53fg9.v
+L0 2
+Z2 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1586320909.059000
+!s107 d:\temp\tmpd53fg9.v|
+!s90 d:\temp\tmpd53fg9.v|
+!i113 0
+Z3 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@a@x@i_@h@p_@master_@burst_@transceiver
+vAXI_HP_Master_Transceiver
+!s110 1588819730
+!i10b 1
+!s100 goE]]ReE8iihKmGe<WQFl2
+IQ3g_6d4WeCYW9>@0N1VOM1
+R1
+R0
+w1588819730
+8d:\temp\tmppysxxn.v
+Fd:\temp\tmppysxxn.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1588819730.761000
+!s107 d:\temp\tmppysxxn.v|
+!s90 d:\temp\tmppysxxn.v|
+!i113 0
+R3
+n@a@x@i_@h@p_@master_@transceiver
+vController
+!s110 1588995465
+!i10b 1
+!s100 >aPi76Ghj8ilD4XDXX76Q3
+I``5>6SOR0G;OA<GN:;@Dg2
+R1
+R0
+w1588995465
+8d:\temp\tmpqqptnd.v
+Fd:\temp\tmpqqptnd.v
+L0 5
+R2
+r1
+!s85 0
+31
+!s108 1588995465.176000
+!s107 Defines.vh|d:\temp\tmpqqptnd.v|
+!s90 d:\temp\tmpqqptnd.v|
+!i113 0
+R3
+n@controller
+vdataFIFO
+!s110 1588995943
+!i10b 1
+!s100 g@BI=oCJb_gl0Ld@i@?]83
+IN<f`O31K@gh_S5lBPLMfN3
+R1
+R0
+w1588995943
+8d:\temp\tmp94olpq.v
+Fd:\temp\tmp94olpq.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1588995943.133000
+!s107 d:\temp\tmp94olpq.v|
+!s90 d:\temp\tmp94olpq.v|
+!i113 0
+R3
+ndata@f@i@f@o
+vDMA_Controller
+!s110 1589004963
+!i10b 1
+!s100 j7L[0CL>H3RTKi_NlDNEA1
+I:P3NgUNzCz3mlF2>`z2Bo1
+R1
+R0
+w1589004963
+8d:\temp\tmpl50wxl.v
+Fd:\temp\tmpl50wxl.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1589004963.332000
+!s107 d:\temp\tmpl50wxl.v|
+!s90 d:\temp\tmpl50wxl.v|
+!i113 0
+R3
+n@d@m@a_@controller
+vOutputFIFO
+!s110 1588823801
+!i10b 1
+!s100 UMHUkR?N]TU`6;3X]VSJa2
+I=BMSm_QV:kiQB:JUY3Nf`3
+R1
+R0
+w1588823801
+8d:\temp\tmpdgte0e.v
+Fd:\temp\tmpdgte0e.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1588823801.530000
+!s107 d:\temp\tmpdgte0e.v|
+!s90 d:\temp\tmpdgte0e.v|
+!i113 0
+R3
+n@output@f@i@f@o
+vweightFIFO
+!s110 1585234312
+!i10b 1
+!s100 _QCBTTM6YKRo^Bj?@n=]K3
+IF9KUa?Y62II;gK]Uj4_>`2
+R1
+R0
+w1585234312
+8d:\temp\tmpe80u2g.v
+Fd:\temp\tmpe80u2g.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1585234312.783000
+!s107 d:\temp\tmpe80u2g.v|
+!s90 d:\temp\tmpe80u2g.v|
+!i113 0
+R3
+nweight@f@i@f@o

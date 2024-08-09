@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Accelerator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Accelerator_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="44745200000fs"></ZoomStartTime>
+      <ZoomEndTime time="44847800001fs"></ZoomEndTime>
+      <Cursor1Time time="44838800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="107"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/Accelerator_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/din_st" type="logic">
+      <obj_property name="ElementShortName">din_st</obj_property>
+      <obj_property name="ObjectShortName">din_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/dout_st" type="logic">
+      <obj_property name="ElementShortName">dout_st</obj_property>
+      <obj_property name="ObjectShortName">dout_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/data_raddr" type="array">
+      <obj_property name="ElementShortName">data_raddr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">data_raddr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/din" type="array">
+      <obj_property name="ElementShortName">din[15:0]</obj_property>
+      <obj_property name="ObjectShortName">din[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/convlayer_dout" type="array">
+      <obj_property name="ElementShortName">convlayer_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">convlayer_dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Layer_buffer/layer_buffer_raddr" type="array">
+      <obj_property name="ElementShortName">layer_buffer_raddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">layer_buffer_raddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/convPE_din_st" type="logic">
+      <obj_property name="ElementShortName">convPE_din_st</obj_property>
+      <obj_property name="ObjectShortName">convPE_din_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/convlayer_dout_st" type="logic">
+      <obj_property name="ElementShortName">convlayer_dout_st</obj_property>
+      <obj_property name="ObjectShortName">convlayer_dout_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/bram_select" type="array">
+      <obj_property name="ElementShortName">bram_select[15:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_select[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/fclayer_din" type="array">
+      <obj_property name="ElementShortName">fclayer_din[255:0]</obj_property>
+      <obj_property name="ObjectShortName">fclayer_din[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/fclayer_win" type="array">
+      <obj_property name="ElementShortName">fclayer_win[255:0]</obj_property>
+      <obj_property name="ObjectShortName">fclayer_win[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/FIFO_dout" type="array">
+      <obj_property name="ElementShortName">FIFO_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/fclayer_buffer_waddr" type="array">
+      <obj_property name="ElementShortName">fclayer_buffer_waddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">fclayer_buffer_waddr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/fclayer_buffer_raddr" type="array">
+      <obj_property name="ElementShortName">fclayer_buffer_raddr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">fclayer_buffer_raddr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/fcweight_raddr" type="array">
+      <obj_property name="ElementShortName">fcweight_raddr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">fcweight_raddr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/adderTree_dout" type="array">
+      <obj_property name="ElementShortName">adderTree_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">adderTree_dout[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/accum_dout" type="array">
+      <obj_property name="ElementShortName">accum_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">accum_dout[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">11</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/fclayer_din_st" type="logic">
+      <obj_property name="ElementShortName">fclayer_din_st</obj_property>
+      <obj_property name="ObjectShortName">fclayer_din_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_FC_layer/fclayer_dout_st" type="logic">
+      <obj_property name="ElementShortName">fclayer_dout_st</obj_property>
+      <obj_property name="ObjectShortName">fclayer_dout_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/convlayer_state" type="logic">
+      <obj_property name="ElementShortName">convlayer_state</obj_property>
+      <obj_property name="ObjectShortName">convlayer_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/convPE_din_st" type="logic">
+      <obj_property name="ElementShortName">convPE_din_st</obj_property>
+      <obj_property name="ObjectShortName">convPE_din_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/win_din_st" type="logic">
+      <obj_property name="ElementShortName">win_din_st</obj_property>
+      <obj_property name="ObjectShortName">win_din_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/rom_win_raddr" type="array">
+      <obj_property name="ElementShortName">rom_win_raddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_win_raddr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/rom_bias_raddr" type="array">
+      <obj_property name="ElementShortName">rom_bias_raddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_bias_raddr[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/layer1_buffer_waddr" type="array">
+      <obj_property name="ElementShortName">layer1_buffer_waddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">layer1_buffer_waddr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/layer1_buffer_raddr" type="array">
+      <obj_property name="ElementShortName">layer1_buffer_raddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">layer1_buffer_raddr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/layer1_buffer_outcnt" type="array">
+      <obj_property name="ElementShortName">layer1_buffer_outcnt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">layer1_buffer_outcnt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/rom_win_cnt" type="array">
+      <obj_property name="ElementShortName">rom_win_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_win_cnt[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/bias_state" type="logic">
+      <obj_property name="ElementShortName">bias_state</obj_property>
+      <obj_property name="ObjectShortName">bias_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/convPE_dout_st" type="logic">
+      <obj_property name="ElementShortName">convPE_dout_st</obj_property>
+      <obj_property name="ObjectShortName">convPE_dout_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/layer1_dout_st" type="logic">
+      <obj_property name="ElementShortName">layer1_dout_st</obj_property>
+      <obj_property name="ObjectShortName">layer1_dout_st</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Accelerator_tb/inst_Accelerator/inst_Conv_layer/inst_Acc_Controller/layer2_dout_st" type="logic">
+      <obj_property name="ElementShortName">layer2_dout_st</obj_property>
+      <obj_property name="ObjectShortName">layer2_dout_st</obj_property>
+   </wvobject>
+</wave_config>

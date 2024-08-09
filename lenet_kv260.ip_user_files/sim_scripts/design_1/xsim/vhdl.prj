@@ -1,0 +1,65 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_rst_ps8_0_99M_0/sim/design_1_rst_ps8_0_99M_0.vhd" \
+
+vhdl fifo_generator_v13_2_7  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ipshared/83df/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+vhdl xbip_utils_v3_0_10  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/multiplier/hdl/xbip_utils_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_pipe_v3_0_6  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/multiplier/hdl/xbip_pipe_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_bram18k_v3_0_6  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/multiplier/hdl/xbip_bram18k_v3_0_vh_rfs.vhd" \
+
+vhdl mult_gen_v12_0_18  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/multiplier/hdl/mult_gen_v12_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_Accelerator_1_0/src/multiplier/sim/multiplier.vhd" \
+
+vhdl c_reg_fd_v12_0_6  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/pooling_shift/hdl/c_reg_fd_v12_0_vh_rfs.vhd" \
+
+vhdl c_mux_bit_v12_0_6  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/pooling_shift/hdl/c_mux_bit_v12_0_vh_rfs.vhd" \
+
+vhdl c_shift_ram_v12_0_14  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/pooling_shift/hdl/c_shift_ram_v12_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_Accelerator_1_0/src/pooling_shift/sim/pooling_shift.vhd" \
+"../../../bd/design_1/ip/design_1_Accelerator_1_0/src/pooling_shift_1/sim/pooling_shift_1.vhd" \
+
+vhdl xbip_dsp48_wrapper_v3_0_4  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/adder/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_dsp48_addsub_v3_0_6  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/adder/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_addsub_v3_0_6  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/adder/hdl/xbip_addsub_v3_0_vh_rfs.vhd" \
+
+vhdl c_addsub_v12_0_14  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/adder/hdl/c_addsub_v12_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_Accelerator_1_0/src/adder/sim/adder.vhd" \
+"../../../bd/design_1/ip/design_1_Accelerator_1_0/src/shift_ram/sim/shift_ram.vhd" \
+"../../../bd/design_1/ip/design_1_Accelerator_1_0/src/multiplier_fc/sim/multiplier_fc.vhd" \
+
+vhdl xbip_dsp48_acc_v3_0_6  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/accum/hdl/xbip_dsp48_acc_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_accum_v3_0_6  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/accum/hdl/xbip_accum_v3_0_vh_rfs.vhd" \
+
+vhdl c_accum_v12_0_14  \
+"../../../../lenet_kv260.gen/sources_1/bd/design_1/ip/design_1_Accelerator_1_0/src/accum/hdl/c_accum_v12_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_Accelerator_1_0/src/accum/sim/accum.vhd" \
+"../../../bd/design_1/ip/design_1_Accelerator_1_0/src/shift_ram_1/sim/shift_ram_1.vhd" \
+
+nosort

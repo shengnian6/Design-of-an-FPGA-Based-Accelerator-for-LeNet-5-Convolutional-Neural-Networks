@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;arm_cpu_test/src/img_flow(1).h&apos; to &apos;img_flow.h&apos;" description="Rename resource &apos;img_flow(1).h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/img_flow(1).h" name="img_flow.h" stamp="1721830170255" updateReferences="true"/>
+</session>

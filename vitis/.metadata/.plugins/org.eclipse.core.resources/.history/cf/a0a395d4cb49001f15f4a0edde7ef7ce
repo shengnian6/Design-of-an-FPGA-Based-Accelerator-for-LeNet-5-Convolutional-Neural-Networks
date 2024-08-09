@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="hello" location="C:/Users/yeshe/Desktop/rep/code/lenet_kv260/vitis/hello" platform="C:/Users/yeshe/Desktop/rep/code/lenet_kv260/vitis/design_2_wrapper/export/design_2_wrapper/design_2_wrapper.xpfm" platformUID="xilinx:kv260_som::0.0(custom)" systemProject="hello_system" sysConfig="design_2_wrapper" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="48afb3f61ce095447894e53a4e3ea709">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.277903778">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.1326756632" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
